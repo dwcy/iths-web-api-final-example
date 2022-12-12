@@ -13,6 +13,7 @@ namespace ITHS.Webapi.Controllers.V1
     public class NobelPrizeController : ControllerBase
     {
         private readonly INobelPrizeRepository _nobelPriceRepository;
+        
         public NobelPrizeController(INobelPrizeRepository nobelPriceRepository)
         {
             _nobelPriceRepository = nobelPriceRepository;

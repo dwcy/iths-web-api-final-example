@@ -1,8 +1,11 @@
-﻿namespace ITHS.Domain.Models
+﻿using System.Text.Json.Serialization;
+
+namespace ITHS.Domain.Models
 {
     public class NobelPrizeWinner
     {
-        public string awardYear { get; set; }
+        [JsonPropertyName("awardYear")]
+        public string AwardYear { get; set; }
         public Category category { get; set; }
         public CategoryFullName categoryFullName { get; set; }
         public string dateAwarded { get; set; }

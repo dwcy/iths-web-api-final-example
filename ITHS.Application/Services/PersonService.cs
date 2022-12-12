@@ -1,5 +1,6 @@
 ﻿using ITHS.Application.ViewModels.Users;
 using ITHS.Domain.Entities;
+using ITHS.Domain.Interfaces.Repositories;
 using ITHS.Webapi.Persistance;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,52 +16,29 @@ namespace ITHS.Application.Services
 
     public class PersonService : IPersonService
     {
-        private readonly ITHSDatabaseContext _context;
-        public PersonService()
+        private readonly IPersonsRepository _personRepository;
+        
+        public PersonService(IPersonsRepository personRepository)
         {
+            _personRepository = personRepository;
         }
 
-        public PersonResponse GetPerson(Guid id)
-        {
-            using (var context = new ITHSDatabaseContext())
-            {
-                var person = context
-                    .Persons
-                    .Where(p => p.Id == id)
-                    .FirstOrDefault();
-
-                return new PersonResponse(person);
-            }
-        }
-
-        public List<PersonResponse> FindPersonsByFirstName(string firstName)
-        {
-            using (var context = new ITHSDatabaseContext())
-            {
-                var persons = context
-                    .Persons
-                    .Where(person => person.FirstName.Contains(firstName))
-                    .Select(person => new PersonResponse(person))
-                    .ToList();
-
-                return persons;
-            }
-        }
+     
 
         public async Task<List<PersonResponse>> FindPersonsByFirstNameAsync(string firstName)
         {
-            using (var context = new ITHSDatabaseContext())
+            var persons = await _personRepository.FindPersonsByFirstName(firstName);
+            
+            var personResponses = new List<PersonResponse>();
+            foreach (var person in persons)
             {
-                var persons = await context
-                    .Persons
-                    .Where(person => person.FirstName.Contains(firstName))
-                    .Select(person => new PersonResponse(person))
-                    .ToListAsync();
-
-                return persons;
+                personResponses.Add(new PersonResponse(person));
             }
+
+            return personResponses;
         }
 
+  
         public void AddPerson(PersonCreateRequest person)
         {
             using (var context = new ITHSDatabaseContext())
@@ -82,5 +60,14 @@ namespace ITHS.Application.Services
             }
         }
 
+        public PersonResponse GetPerson(Guid id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<PersonResponse> FindPersonsByFirstName(string firstName)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

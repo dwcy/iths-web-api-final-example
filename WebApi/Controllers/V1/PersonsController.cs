@@ -1,5 +1,6 @@
 ﻿using ITHS.Application.Services;
 using ITHS.Application.ViewModels.Users;
+using ITHS.Domain.Interfaces.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ITHS.Webapi.Controllers.V1
@@ -13,7 +14,7 @@ namespace ITHS.Webapi.Controllers.V1
         
         public PersonsController()
         {
-            _personService = new PersonService();
+         
         }
 
         [HttpGet]
