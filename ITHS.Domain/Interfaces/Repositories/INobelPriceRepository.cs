@@ -1,5 +1,4 @@
-﻿
-using ITHS.Domain.Models;
+﻿using ITHS.Domain.Models;
 
 namespace ITHS.Domain.Interfaces.Repositories
 {

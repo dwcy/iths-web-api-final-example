@@ -2,7 +2,6 @@
 using ITHS.Domain.Entities;
 using ITHS.Domain.Interfaces.Repositories;
 using ITHS.Webapi.Persistance;
-using Microsoft.EntityFrameworkCore;
 
 namespace ITHS.Application.Services
 {
@@ -21,12 +20,10 @@ namespace ITHS.Application.Services
         public PersonService(IPersonsRepository personRepository)
         {
             _personRepository = personRepository;
-        }
-
-     
+        }   
 
         public async Task<List<PersonResponse>> FindPersonsByFirstNameAsync(string firstName)
-        {
+        {          
             var persons = await _personRepository.FindPersonsByFirstName(firstName);
             
             var personResponses = new List<PersonResponse>();

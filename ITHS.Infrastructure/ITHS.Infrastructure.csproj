@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Contexts\Persons\Adapters\" />
+    <Folder Include="Contexts\Trivia\Repository\" />
   </ItemGroup>
 
   <ItemGroup>
