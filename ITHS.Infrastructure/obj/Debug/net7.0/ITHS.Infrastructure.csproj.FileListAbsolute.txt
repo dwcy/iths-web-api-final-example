@@ -1,0 +1,17 @@
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\bin\Debug\net7.0\ITHS.Infrastructure.deps.json
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\bin\Debug\net7.0\ITHS.Infrastructure.dll
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\bin\Debug\net7.0\ITHS.Infrastructure.pdb
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\obj\Debug\net7.0\ITHS.Infrastructure.csproj.AssemblyReference.cache
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\obj\Debug\net7.0\ITHS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\obj\Debug\net7.0\ITHS.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\obj\Debug\net7.0\ITHS.Infrastructure.AssemblyInfo.cs
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\obj\Debug\net7.0\ITHS.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\obj\Debug\net7.0\ITHS.Infrastructure.dll
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\obj\Debug\net7.0\refint\ITHS.Infrastructure.dll
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\obj\Debug\net7.0\ITHS.Infrastructure.pdb
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\obj\Debug\net7.0\ref\ITHS.Infrastructure.dll
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\bin\Debug\net7.0\ITHS.Infrastructure.runtimeconfig.json
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\bin\Debug\net7.0\ITHS.Domain.dll
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\bin\Debug\net7.0\ITHS.Domain.pdb
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\obj\Debug\net7.0\ITHS.Infrastructure.csproj.CopyComplete
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Infrastructure\obj\Debug\net7.0\ITHS.Infrastructure.genruntimeconfig.cache

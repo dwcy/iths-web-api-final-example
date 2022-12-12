@@ -1,0 +1,12 @@
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Domain\bin\Debug\net7.0\ITHS.Domain.deps.json
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Domain\bin\Debug\net7.0\ITHS.Domain.dll
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Domain\bin\Debug\net7.0\ITHS.Domain.pdb
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Domain\obj\Debug\net7.0\ITHS.Domain.csproj.AssemblyReference.cache
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Domain\obj\Debug\net7.0\ITHS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Domain\obj\Debug\net7.0\ITHS.Domain.AssemblyInfoInputs.cache
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Domain\obj\Debug\net7.0\ITHS.Domain.AssemblyInfo.cs
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Domain\obj\Debug\net7.0\ITHS.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Domain\obj\Debug\net7.0\ITHS.Domain.dll
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Domain\obj\Debug\net7.0\refint\ITHS.Domain.dll
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Domain\obj\Debug\net7.0\ITHS.Domain.pdb
+C:\Projects\ITHS\Backend\DemoArchitecture\ITHS.Domain\obj\Debug\net7.0\ref\ITHS.Domain.dll
